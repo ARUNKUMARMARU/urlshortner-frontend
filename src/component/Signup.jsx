@@ -89,9 +89,10 @@ function Signup() {
        </label>
        </div><br/>
 
-       <button type='submit'>Done !</button>
+       <button type='submit'>Done !</button><br />
 
       </form>
+      <p>Id activation link will send your mail id, Kindly visit your email account and click that link to activate your account </p><br />
 
       <p>Already a member? <Link to='/signin'>signin</Link></p>
     </div>

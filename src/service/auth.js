@@ -8,6 +8,7 @@ const authService = {
             const res = await instance.authInstance.post('/signup', user);
 
             console.log(res.data);
+        
 
             if (res.data) {
                 console.log('User registered successfully');
@@ -20,6 +21,7 @@ const authService = {
             console.log('Error registering user');
             return error.response.data;
         }
+       
     },
 
     signin: async (user) => {

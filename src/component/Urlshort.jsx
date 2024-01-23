@@ -28,7 +28,7 @@ console.log(res)
             <div><button type='submit'>create short url</button></div>
         </form>
 
-       <p>{shortURL}</p>
+       <p>{"your shortned url is : "} {shortURL}</p>
     </div>
   )
 }

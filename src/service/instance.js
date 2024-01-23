@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = "https://urlshortner-backend-83kz.onrender.com";
+const baseURL = "https://urlshortner-backend-83kz.onrender.com/api";
 
 //define authinstance
 const authInstance = axios.create({ 
